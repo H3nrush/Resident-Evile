@@ -1,0 +1,150 @@
+.body{
+    background-color: white;
+    height: 2000px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+
+}
+.topbackground {
+    width: 100%;
+    height: 20%;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.Redecouvrez { 
+    color: white;
+    font-size: 10px;  
+}
+
+
+.menu {
+background-color: white;
+width: 100%;
+height: 50px;
+z-index: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.topmenutext{
+    font-size: 10px;
+    width: 100px;
+    border-color: black;
+    text-align: center;
+    border-left-style: groove;
+
+}
+.topmenutext1{
+    font-size: 10px;
+    width: 100px;
+    text-align: center;
+}
+.middleP {
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    z-index: 1;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.middleptext {
+    width: 50%;
+    text-align: center;
+}
+.buttomEN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+
+}
+.ACCTUALITES {
+    background-color: rgb(255, 255, 255);
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.actbox1{
+    width: 80%;
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+.box {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    height: 100%;
+    width: auto;
+    text-align: center;
+}
+.downbox {
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inputbox {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.downboxtext{
+    color: white;
+    font-size: large;
+    text-decoration: double;
+}
+.bottunbox {
+    background-color: red;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+.lastdown {
+    background-color: black;
+    height: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.alltext{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.textbelow {
+    border-color: white;
+    border-left: 2px;
+    color: white;
+    width: 150px;
+    height: auto;
+    font-size: x-small;
+    
+}
+.logodown {
+    position: absolute;
+    z-index: 1;
+    left: 150px;
+}
